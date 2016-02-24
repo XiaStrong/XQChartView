@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "XQChartView.h"
+#import "XQChartView.h"
 @interface ViewController : UIViewController
 
-//@property (nonatomic, strong) XQChartView *chartView;
+@property (nonatomic, strong) XQChartView *chartView;
 @property (nonatomic, strong)UIView *lableView;//放y轴lable的view
 
 

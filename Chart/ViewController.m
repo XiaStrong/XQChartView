@@ -41,13 +41,11 @@
     scr.contentSize=CGSizeMake(backViewwidth, 0);
     [bgview addSubview:scr];
     
-//    _chartView = [[XQChartView alloc] initWithFrame:CGRectMake(50, 0,  backViewwidth-50 , backViewHeight)];
-//    _chartView.xarr=@[@"0",@"1",@"2",@"3"];
-//    _chartView.yarr=@[@"36",@"40",@"42",@"43"];
-//    _chartView.backgroundColor = [UIColor whiteColor];
-//
-//
-//    [scr addSubview:self.chartView];
+    _chartView = [[XQChartView alloc] initWithFrame:CGRectMake(50, 0,  backViewwidth-50 , backViewHeight)];
+    _chartView.xarr=@[@"0",@"1",@"2",@"3"];
+    _chartView.yarr=@[@"36",@"40",@"42",@"43"];
+    _chartView.backgroundColor = [UIColor whiteColor];
+    [scr addSubview:self.chartView];
     
     _lableView=[[UIView alloc]initWithFrame:CGRectMake(0, 0, 50, backViewHeight-10)];
     _lableView.backgroundColor=[UIColor whiteColor];
